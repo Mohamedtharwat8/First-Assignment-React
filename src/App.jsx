@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./components/Home/Home";
-import Products from "./components/products/products";
+import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
-import Gallery from "./components/Gallery/Gallery";
+import Contact from "./components/Contact/Contact";
+import Portfolio from "./components/Portfolio/portfolio";
 
 export default function App() {
   const routes = createBrowserRouter([
