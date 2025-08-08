@@ -13,8 +13,9 @@ export default function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
+        { path: "home", element: <Home /> },
         { path: "about", element: <About /> },
-        { path: "potfolio", element: <Portfolio /> },
+        { path: "portfolio", element: <Portfolio /> },
         { path: "contact", element: <Contact /> },
         { path: "*", element: <NotFound /> }, // Ensure NotFound is imported
       ],
