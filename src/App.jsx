@@ -4,8 +4,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import NotFound from "./components/NotFound/NotFound";
 import Contact from "./components/Contact/Contact";
-import Portfolio from "./components/Portfolio/portfolio";
-
+import Portfolio from "./components/Portfolio/Portfolio";
 export default function App() {
   const routes = createBrowserRouter([
     {
