@@ -6,19 +6,27 @@ export default function Navbar() {
 <nav className={`navbar navbar-expand-lg p-4 navbar-dark ${styles['bg-navbar']}`}>
   <div className="container">
     <Link className="navbar-brand text-uppercase fs-2 fw-bold" to="home">Start Framework</Link>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icpon" />
-    </button>
+ <button
+  className="navbar-toggler"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarNav"
+  aria-controls="navbarNav"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span className="navbar-toggler-icon"></span>
+</button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-          <NavLink className="nav-link   text-uppercase fw-bold fs-5" to="about" >About</NavLink>
+          <NavLink className="nav-link   text-uppercase fw-bold fs-5 me-1" to="about" >About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link text-uppercase fw-bold fs-5 mx-3" to="portfolio" >Portfolio</NavLink>
+          <NavLink className="nav-link text-uppercase fw-bold fs-5 me-1" to="portfolio" >Portfolio</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link text-uppercase fw-bold fs-5" to="contact" >Contact</NavLink>
+          <NavLink className="nav-link text-uppercase fw-bold fs-5 me-1" to="contact" >Contact</NavLink>
         </li>
       </ul>
     </div>

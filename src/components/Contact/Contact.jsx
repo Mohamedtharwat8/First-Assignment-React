@@ -3,7 +3,7 @@ import SharedComponent from "../SharedComponent/SharedComponent";
 
 export default function Contact() {
     return (
-        <div className='  vh-90 d-flex flex-column justify-content-center align-items-center text-center'>
+        <div className=' min-vh-100 d-flex flex-column justify-content-center align-items-center text-center'>
                   <h3 className=" text-uppercase text-start">Contact Component</h3>
               <SharedComponent bgColor={'#2c3e50'} color={'#2c3e50'}></SharedComponent>
                   <div className="container my-3 "> 
